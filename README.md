@@ -47,3 +47,15 @@ cd Waterfox-Linux-Installer
 
 go mod tidy
 go build -o waterfox-linux-installer
+```
+### 🏃‍♂️‍➡️ Run
+```
+mkdir -p waterfox-linux-installer
+
+wget https://github.com/soltros/Waterfox-Linux-Installer/releases/download/v1/waterfox-gui-linux-amd64.tar.xz
+
+tar xvf waterfox-gui-linux-amd64.tar.xz
+```
+You can then double-click on the binary in your file manager to run it.
+
+
