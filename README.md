@@ -46,4 +46,4 @@ git clone https://github.com/soltros/Waterfox-Linux-Installer
 cd Waterfox-Linux-Installer
 
 go mod tidy
-go build -o waterfox-installer
+go build -o waterfox-linux-installer
