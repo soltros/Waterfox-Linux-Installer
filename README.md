@@ -1,6 +1,6 @@
 # 🦊 Waterfox GUI Installer for Linux
 
-This is a simple, cross-platform **Go application** with a graphical interface (built using [Fyne](https://fyne.io)) that lets you:
+This is a simple **Go application** with a graphical interface (built using [Fyne](https://fyne.io)) that lets you:
 
 - 📂 Select a pre-downloaded Waterfox archive
 - 📦 Install Waterfox to `/opt/waterfox`
