@@ -42,8 +42,8 @@ This is a simple **Go application** with a graphical interface (built using [Fyn
 ### 🛠️ Build
 
 ```bash
-git clone https://github.com/YOURNAME/waterfox-linux-installer
-cd waterfox-linux-installer
+git clone https://github.com/soltros/Waterfox-Linux-Installer
+cd Waterfox-Linux-Installer
 
 go mod tidy
 go build -o waterfox-installer
