@@ -45,9 +45,5 @@ This is a simple, cross-platform **Go application** with a graphical interface (
 git clone https://github.com/YOURNAME/waterfox-linux-installer
 cd waterfox-linux-installer
 
-# Download logo if not included:
-mkdir -p assets
-curl -sL https://raw.githubusercontent.com/WaterfoxCo/brand-assets/main/waterfox-logos/png/waterfox-icon.png -o assets/waterfox.png
-
 go mod tidy
 go build -o waterfox-installer
