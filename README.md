@@ -1,5 +1,7 @@
 # 🦊 Waterfox GUI Installer for Linux
 
+![Waterfox Installer Preview](https://raw.githubusercontent.com/soltros/Waterfox-Linux-Installer/refs/heads/main/assets/wf-installer.png)
+
 This is a simple **Go application** with a graphical interface (built using [Fyne](https://fyne.io)) that lets you:
 
 - 📂 Select a pre-downloaded Waterfox archive
