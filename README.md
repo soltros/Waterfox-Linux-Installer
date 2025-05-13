@@ -14,7 +14,7 @@ This is a simple **Go application** with a graphical interface (built using [Fyn
 
 ---
 
-If you wish to install Waterfox locally, rather than system-wide, you can edit the generated shell script variable in main.go with the following.
+🔧 Optional: To install Waterfox only for your user (without root access), edit the shell script variables in main.go:
 
 ```
 INSTALL_DIR="$HOME/.local/opt/waterfox"
