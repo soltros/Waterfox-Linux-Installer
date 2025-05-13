@@ -14,6 +14,14 @@ This is a simple **Go application** with a graphical interface (built using [Fyn
 
 ---
 
+If you wish to install Waterfox locally, rather than system-wide, you can edit the generated shell script variable in main.go with the following.
+
+```
+INSTALL_DIR="$HOME/.local/opt/waterfox"
+BIN_LINK="$HOME/.local/bin/waterfox"
+DESKTOP_FILE="$HOME/.local/share/applications/waterfox.desktop"
+```
+
 ## ✨ Features
 
 - Native GUI built in Go with [Fyne](https://fyne.io)
