@@ -40,11 +40,38 @@ DESKTOP_FILE="$HOME/.local/share/applications/waterfox.desktop"
 - `tar`
 - `pkexec`
 
-> 💡 On Debian-based systems:
+---
+> ## 💡 Dependencies by Distro:
+>
+> ### **Debian / Ubuntu**
+>
 > ```bash
-> sudo apt install zenity policykit-1 libgl1-mesa-dev xorg-dev
+> sudo apt install golang zenity tar policykit-1 libgl1-mesa-dev xorg-dev
 > ```
-
+>
+> ### **Arch Linux / Manjaro**
+>
+> ```bash
+> sudo pacman -S go zenity tar polkit mesa
+> ```
+>
+> ### **Fedora / RHEL / CentOS**
+>
+> ```bash
+> sudo dnf install golang zenity tar polkit mesa-libGL-devel libX11-devel
+> ```
+>
+> ### **openSUSE / Tumbleweed**
+>
+> ```bash
+> sudo zypper install go zenity tar polkit Mesa-libGL-devel xorg-x11-devel
+> ```
+>
+> ### **Alpine Linux**
+>
+> ```bash
+> sudo apk add go zenity tar polkit mesa-dev xorg-server-dev
+> ```
 ---
 
 ## 🚀 Usage
